@@ -51,21 +51,60 @@
 
 
     <!-- hero section start -->
-    <div class="container">
-    <div class="row ">
-      <!-- left container start -->
-       <div class="col-6 ">
-        Hi,hello
-       </div>
-      <!-- left container End -->
-       <!-- right container start -->
-        <div class="col-6 d-flex justify-content-end ">
-          hello
+    <div class="container pt-5 " style="min-height: 85vh;">
+      <div class="row align-items-center flex-row-reverse">
+        
+
+        <!-- Right Column -->
+        <div class="col-md-6 col-12 d-flex justify-content-md-end justify-content-center">
+          <img 
+              src="./images/my-img.png" 
+              alt="My Image" 
+              class="img-fluid " 
+              style="max-width: 100%; height: auto;"
+          >
+      </div>
+        <!-- Right Column  End-->
+
+        <!-- Left Column -->
+      <div class="col-md-6 col-12 d-flex flex-column align-items-center align-items-md-start">
+        <h1>Hi, I'm Haleem.</h1>
+        <h2>I'm a Full-Stack Developer</h2>
+        <p class="text-center text-md-start">
+          In Eravur, Sri Lanka. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
+        </p>
+        <p class="text-center text-md-start">
+          In Eravur, Sri Lanka. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
+        </p>
+        <div class="d-flex gap-3">
+          <a href="#" class="btn btn-info">Contact</a>
+          <a href="#" class="btn btn-info">Download CV</a>
         </div>
-       <!-- right container end -->
+      </div>
+      <!-- Left Column End-->
+
+      </div>
     </div>
-  </div>  
     <!-- hero section end -->
+
+    <div class="text-center">
+      <h3>About Me</h3>
+    </div>
+
+
+
+    
+
+    <script>
+      function toggleDarkMode() {
+          document.body.classList.toggle('bg-dark');
+          document.body.classList.toggle('text-white');
+      }
+  
+      // Attach event listeners to both dark mode buttons
+      document.getElementById('themeToggleMobile').addEventListener('click', toggleDarkMode);
+      document.getElementById('themeToggleDesktop').addEventListener('click', toggleDarkMode);
+  </script>
 
     <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
